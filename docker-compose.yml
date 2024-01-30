@@ -14,5 +14,6 @@ services:
       - MYSQL_DATABASE=pass_local
       - MYSQL_USER=pass_local_user
       - MYSQL_PASSWORD=passlocal123
-      - MYSQL_ROOT_PASSWORD=passlocal123
+      - MYSQL_ROOT_PASSWORD=passlocal123 # https://csksoft.tistory.com/69 디비버 연결 시 오류 참조
       - TZ=Asia/Seoul
+    
