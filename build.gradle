@@ -37,6 +37,10 @@ dependencies { // 2.4.0+
 	// csv
 	implementation 'com.opencsv:opencsv:5.7.0'
 
+	// junit5
+	testImplementation "org.junit.jupiter:junit-jupiter-api:5.9.0"
+	testAnnotationProcessor "org.junit.jupiter:junit-jupiter-engine:5.9.0"
+
 	testImplementation "org.testcontainers:testcontainers:1.17.6"
 	implementation platform('org.testcontainers:testcontainers-bom:1.17.6')
 	testImplementation('org.testcontainers:mysql')
