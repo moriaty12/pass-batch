@@ -43,6 +43,7 @@ public class PassBatchApplication {
 	// 스텝을 테스클릿으로하고 그 스텝을 넣었다
 	public static void main(String[] args) {
 		SpringApplication.run(PassBatchApplication.class, args);
+		System.out.println("test");
 	}
 
 }
