@@ -11,7 +11,7 @@ import java.util.List;
 
 
 public interface PackageRepository extends JpaRepository<PackageEntity, Integer> {
-    List<PackageEntity> findByCreatedAtAfter(LocalDateTime dateTime, PageRequest packageSeq);
+    /*List<PackageEntity> findByCreatedAtAfter(LocalDateTime dateTime, PageRequest packageSeq);
 
     @Modifying
     @Transactional
@@ -19,5 +19,5 @@ public interface PackageRepository extends JpaRepository<PackageEntity, Integer>
                    "   SET p.count = :count," +
                    "       p.period = :period" +
                    " WHERE p.packageSeq = :packageSeq")
-    int updateCountAndPeriod(Integer packageSeq, Integer Count, Integer period);
+    int updateCountAndPeriod(Integer packageSeq, Integer Count, Integer period);*/
 }
